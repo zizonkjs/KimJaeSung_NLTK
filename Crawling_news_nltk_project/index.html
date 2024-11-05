@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>경제 뉴스 분류기</title>
+</head>
+<body>
+    <h1>경제 뉴스 분류기</h1>
+    <form method="post" action="http://localhost:8080/cgi-bin/news_BERT_LSTM_model.py">
+        <label for="article_text">뉴스 기사 내용을 입력하세요:</label><br>
+        <textarea name="article_text" rows="10" cols="50"></textarea><br><br>
+        <input type="submit" value="분류하기">
+    </form>
+</body>
+</html>
